@@ -1,0 +1,13 @@
+[package]
+name = "seq_gtfs"
+version = "0.1.0"
+authors = ["Jarrod-Bennett <jarrodbennett159@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+reqwest = { version = "0.10.8", features = ["blocking"] }
+prost = "0.6"
+bytes = "0.6"
+
+[build-dependencies]
+prost-build = "0.6"
